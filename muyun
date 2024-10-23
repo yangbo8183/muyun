@@ -158,9 +158,6 @@ proxy-groups:
     name: '🍃 Proxies'
     type: select
     proxies:
-  - name: Proxy
-    type: select
-    proxies:
       - sga
       - sgb
       - hcca
