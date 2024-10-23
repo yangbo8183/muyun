@@ -718,6 +718,14 @@ rules:
 - DOMAIN-SUFFIX,zb.com,🍃 Proxies
 - DOMAIN-SUFFIX,zello.com,🍃 Proxies
 - DOMAIN-SUFFIX,zeronet.io,🍃 Proxies
+- DOMAIN-SUFFIX,jmsuper.com,🍃 Proxies
+- DOMAIN-SUFFIX,charontv.com,🍃 Proxies
+- DOMAIN-SUFFIX,emby.wtf,🍃 Proxies
+- DOMAIN-SUFFIX,789.123456.al,🍃 Proxies
+- DOMAIN-SUFFIX,tv.811861.xyz,🍃 Proxies
+- DOMAIN-SUFFIX,term.wtf,🍃 Proxies
+- DOMAIN-SUFFIX,nbyy.cc,🍃 Proxies
+- DOMAIN-SUFFIX,nivod.cc,🍃 Proxies
 - DOMAIN,cdn-images.mailchimp.com,🍃 Proxies
 - DOMAIN,id.heroku.com,🍃 Proxies
 - DOMAIN-KEYWORD,github,🍃 Proxies
