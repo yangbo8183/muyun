@@ -122,7 +122,7 @@ proxies:
     udp: true
   - name: "ccarm"
     type: trojan
-    server: 140.245.73.123
+    server: 146.56.96.88
     port: 443
     password: hcj9180
     udp: true
