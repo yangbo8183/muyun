@@ -131,24 +131,24 @@ proxies:
       - h2
       - http/1.1
     skip-cert-verify: false
-  - name: "bwg"
+  - name: "dc99"
     type: trojan
-    server: 45.78.20.251
-    port: 8443
+    server: dc99.yangbo.eu.org
+    port: 443
     password: hcj9180
     udp: true
-    sni: 45.78.20.251.nip.io
+    sni: dc99.yangbo.eu.org
     alpn:
       - h2
       - http/1.1
     skip-cert-verify: false
   - name: "cc"
     type: trojan
-    server: cc.yangbo.eu.org
+    server: cc.mdfg2288.gq
     port: 443
     password: hcj9180
     udp: true
-    sni: cc.yangbo.eu.org
+    sni: cc.mdfg2288.gq
     alpn:
       - h2
       - http/1.1
@@ -167,7 +167,7 @@ proxy-groups:
       - ccarm
       - jparm
       - lain
-      - bwg
+      - dc99
       - cc
   -
     name: '🍂 Domestic'
