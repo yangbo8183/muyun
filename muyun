@@ -103,16 +103,12 @@ proxies:
       - http/1.1
     skip-cert-verify: false
   - name: lain
-    type: trojan
-    server: lain.yangbo.eu.org
-    port: 443
-    password: hcj9180
+    type: ss
+    server: 89.213.104.14
+    port: 12123
+    cipher: aes-256-gcm
+    password: "gmbzhhc163"
     udp: true
-    sni: lain.yangbo.eu.org
-    alpn:
-      - h2
-      - http/1.1
-    skip-cert-verify: false
   - name: "jparm"
     type: ss
     server: 158.101.81.141
