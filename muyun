@@ -472,6 +472,15 @@ rules:
 #USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,🍂 Domestic
 
 # (DNS Cache Pollution Protection)
+# > EMBY
+- DOMAIN-SUFFIX,play.charontv.com,🍃 Proxies
+- DOMAIN-SUFFIX,mini.jmsuper.com,🍃 Proxies
+- DOMAIN-SUFFIX,emby.cn2gias.uk,🍃 Proxies
+- DOMAIN-SUFFIX,emby.cn2gias.uk,🍃 Proxies
+- DOMAIN-SUFFIX,s.outong-valve.com,🍃 Proxies
+- DOMAIN-SUFFIX,pub1.emby.wtf,🍃 Proxies
+- DOMAIN-SUFFIX,pub2.emby.wtf,🍃 Proxies
+- DOMAIN-SUFFIX,pub3.emby.wtf,🍃 Proxies
 # > Google
 - DOMAIN-SUFFIX,appspot.com,🍃 Proxies
 - DOMAIN-SUFFIX,blogger.com,🍃 Proxies
