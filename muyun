@@ -130,6 +130,13 @@ proxies:
     cipher: aes-256-gcm
     password: "gmbzhhc163"
     udp: true
+  - name: "dmit"
+    type: ss
+    server: 154.26.186.76
+    port: 12123
+    cipher: aes-256-gcm
+    password: "gmbzhhc163"
+    udp: true
   - name: "dc99"
     type: trojan
     server: dc99.yangbo.eu.org
@@ -165,6 +172,7 @@ proxy-groups:
       - lain
       - dc99
       - cc
+      - dmit
   -
     name: '🍂 Domestic'
     type: select
