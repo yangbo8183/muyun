@@ -76,17 +76,12 @@ proxies:
       - h2
       - http/1.1
     skip-cert-verify: false
-  - name: "sgb"
-    type: trojan
-    server: 158.178.236.0
-    port: 443
-    password: hcj9180
-    udp: true
-    sni: 158.178.236.0.nip.io
-    alpn:
-      - h2
-      - http/1.1
-    skip-cert-verify: false
+  - name: "hysteria2"
+    type: hysteria2
+    server: sgb.chinatw.eu.org
+    port: 444
+    ports: 20000-50000
+    password: zmz203307
   - name: "sgarm"
     type: ss
     server: 138.2.73.34
