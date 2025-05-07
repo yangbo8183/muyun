@@ -76,12 +76,13 @@ proxies:
       - h2
       - http/1.1
     skip-cert-verify: false
-  - name: "sgb"
+  - name: sgb
     type: hysteria2
     server: sgb.chinatw.eu.org
-    port: 444
+    port: "444"
     ports: 20000-50000
-    password: zmz203307
+    password: zjs9180.zmz203307
+    sni: sgb.chinatw.eu.org
   - name: "sgarm"
     type: ss
     server: 138.2.73.34
