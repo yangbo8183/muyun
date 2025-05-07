@@ -76,7 +76,7 @@ proxies:
       - h2
       - http/1.1
     skip-cert-verify: false
-  - name: "hysteria2"
+  - name: "sgb"
     type: hysteria2
     server: sgb.chinatw.eu.org
     port: 444
