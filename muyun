@@ -90,35 +90,13 @@ proxies:
     cipher: aes-256-gcm
     password: "gmbzhhc163"
     udp: true
-  - name: ggfree
-    type: trojan
-    server: 35.212.179.240
-    port: 443
-    password: gmbzhhc163
-    udp: true
-    sni: 35.212.179.240.nip.io
-    alpn:
-      - h2
-      - http/1.1
-    skip-cert-verify: false
-  - name: gcpfree
-    type: trojan
-    server: 35.208.161.69
-    port: 443
-    password: hcj9180
-    udp: true
-    sni: 35.208.161.69.nip.io
-    alpn:
-      - h2
-      - http/1.1
-    skip-cert-verify: false
   - name: lain
-    type: ss
-    server: 89.213.104.14
-    port: 12123
-    cipher: aes-256-gcm
-    password: "gmbzhhc163"
-    udp: true
+    type: hysteria2
+    server: lain.oracle123.tk
+    port: "444"
+    ports: 20000-50000
+    password: zjs9180.zmz203307
+    sni: lain.oracle123.tk
   - name: "jparm"
     type: ss
     server: 158.101.81.141
@@ -175,8 +153,6 @@ proxy-groups:
       - sgarm
       - hcca
       - hccb
-      - ggfree
-      - gcpfree
       - ccarm
       - jparm
       - lain
