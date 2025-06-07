@@ -71,7 +71,7 @@ proxies:
     port: 443
     password: hcj9180
     udp: true
-    sni: 138.2.92.207.nip.io
+    sni: sga.mdfg.cf
     alpn:
       - h2
       - http/1.1
