@@ -105,12 +105,16 @@ proxies:
     password: "gmbzhhc163"
     udp: true
   - name: "dmit"
-    type: ss
-    server: 154.26.186.76
-    port: 12123
-    cipher: aes-256-gcm
-    password: "gmbzhhc163"
+    type: trojan
+    server: dmit.yangbo.eu.org
+    port: 443
+    password: hcj9180
     udp: true
+    sni: dmit.yangbo.eu.org
+    alpn:
+      - h2
+      - http/1.1
+    skip-cert-verify: false
   - name: "dc99"
     type: trojan
     server: dc99.yangbo.eu.org
