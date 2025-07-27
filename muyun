@@ -481,6 +481,7 @@ rules:
 - DOMAIN-SUFFIX,pub1.emby.wtf,🍃 Proxies
 - DOMAIN-SUFFIX,pub2.emby.wtf,🍃 Proxies
 - DOMAIN-SUFFIX,pub3.emby.wtf,🍃 Proxies
+- DOMAIN-SUFFIX,emby2.yunti.online,🍃 Proxies
 # > Google
 - DOMAIN-SUFFIX,appspot.com,🍃 Proxies
 - DOMAIN-SUFFIX,blogger.com,🍃 Proxies
