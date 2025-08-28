@@ -106,7 +106,7 @@ proxies:
     udp: true
   - name: "dmit"
     type: trojan
-    server: dmit.yangbo.eu.org
+    server: dmit.mdfg2288.gq
     port: 443
     password: hcj9180
     udp: true
