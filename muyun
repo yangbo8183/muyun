@@ -85,7 +85,7 @@ proxies:
     sni: sgb.chinatw.eu.org
   - name: "sgarm"
     type: ss
-    server: 168.138.167.172
+    server: 134.185.88.159
     port: 12123
     cipher: aes-256-gcm
     password: "gmbzhhc163"
