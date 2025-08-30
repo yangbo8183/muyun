@@ -115,13 +115,13 @@ proxies:
       - h2
       - http/1.1
     skip-cert-verify: false
-  - name: "dc99"
+  - name: "bwg"
     type: trojan
-    server: dc99.yangbo.eu.org
+    server: bwg.mdfg2288.gq
     port: 443
     password: hcj9180
     udp: true
-    sni: dc99.yangbo.eu.org
+    sni: bwg.mdfg2288.gq
     alpn:
       - h2
       - http/1.1
@@ -160,7 +160,7 @@ proxy-groups:
       - ccarm
       - jparm
       - lain
-      - dc99
+      - bwg
       - cc
       - dmit
       - mxga
