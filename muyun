@@ -90,13 +90,6 @@ proxies:
     cipher: aes-256-gcm
     password: "gmbzhhc163"
     udp: true
-  - name: lain
-    type: hysteria2
-    server: lain.oracle123.tk
-    port: "444"
-    ports: 20000-50000
-    password: zjs9180.zmz203307
-    sni: lain.oracle123.tk
   - name: "jparm"
     type: ss
     server: 158.101.81.141
@@ -126,13 +119,6 @@ proxies:
       - h2
       - http/1.1
     skip-cert-verify: false
-  - name: "cc"
-    type: ss
-    server: 8.219.219.206
-    port: 12123
-    cipher: chacha20-ietf-poly1305
-    password: "gmbzhhc163"
-    udp: true
   - name: "mxga"
     type: ss
     server: 160.34.213.115
@@ -159,9 +145,7 @@ proxy-groups:
       - hccb
       - ccarm
       - jparm
-      - lain
       - bwg
-      - cc
       - dmit
       - mxga
       - mxgb
