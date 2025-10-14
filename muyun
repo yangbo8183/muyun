@@ -133,6 +133,13 @@ proxies:
     cipher: aes-256-gcm
     password: "gmbzhhc163"
     udp: true
+  - name: "uka"
+    type: ss
+    server: 132.145.61.146
+    port: 12123
+    cipher: aes-256-gcm
+    password: "gmbzhhc163"
+    udp: true
 proxy-groups:
   -
     name: '🍃 Proxies'
@@ -149,6 +156,7 @@ proxy-groups:
       - dmit
       - mxga
       - mxgb
+      - uka
   -
     name: '🍂 Domestic'
     type: select
