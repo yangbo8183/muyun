@@ -121,7 +121,7 @@ proxies:
     skip-cert-verify: false
   - name: "mxga"
     type: ss
-    server: 160.34.213.115
+    server: 159.54.158.147
     port: 12123
     cipher: aes-256-gcm
     password: "gmbzhhc163"
