@@ -92,7 +92,7 @@ proxies:
     udp: true
   - name: "jparm"
     type: ss
-    server: 158.101.81.141
+    server: 131.186.44.69
     port: 12123
     cipher: aes-256-gcm
     password: "gmbzhhc163"
