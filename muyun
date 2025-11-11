@@ -142,7 +142,7 @@ proxies:
     udp: true
   - name: "ukb"
     type: ss
-    server: 141.147.111.248
+    server: 141.147.118.245
     port: 12123
     cipher: aes-256-gcm
     password: "gmbzhhc163"
